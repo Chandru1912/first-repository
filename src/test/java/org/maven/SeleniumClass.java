@@ -34,11 +34,11 @@ public class SeleniumClass
 	      Thread.sleep(3000);
 	      List<WebElement> elements = driver.findElements(By.xpath("//input[@name='q']"));
 
-	      for (WebElement ele : elements) 
-	      {
-	          if (ele.isDisplayed()) {
-	              ele.sendKeys("watches");	              
-	          }
-	      }
+//	      for (WebElement ele : elements) 
+//	      {
+//	          if (ele.isDisplayed()) {
+//	              ele.sendKeys("watches");	              
+//	          }
+//	      }
    }
 }
